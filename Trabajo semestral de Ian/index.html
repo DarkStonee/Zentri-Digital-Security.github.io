@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZENTRI</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+    <div id="loader">Accediendo al sistema...</div>
+
+    <!-- NAVBAR -->
+    <header>
+        <nav class="navbar">
+    <a href="prueba.html"><h1 class="logo">ZENTRI</h1></a>
+
+    <div class="side-menu">
+    <a href="seguridad.html" class="menu-item">Seguridad</a>
+    <a href="amenazas.html" class="menu-item">Amenazas</a>
+    <a href="etica.html" class="menu-item">Ética</a>
+    <a href="practicas.html" class="menu-item">Prácticas</a>
+</div>
+</nav>
+    </header>
+
+    <!-- INTRO -->
+    <section id="intro" class="screen active center-screen">
+        <h2 id="typing"></h2>
+        <a href="#" class="btn" onclick="startMission()">Iniciar misión</a>
+    </section>
+
+    <!-- CONTENIDO PRINCIPAL -->
+<section id="mainContent" class="screen hidden">
+
+    <!-- CARRUSEL -->
+    <section class="carousel" id="carousel">
+        <div class="carousel-content">
+            <h2 id="carousel-title"></h2>
+            <p id="carousel-text"></p>
+        </div>
+
+        <div class="indicators" id="indicators"></div>
+    </section>
+
+    <!-- INTRO -->
+    <section class="section intro-text">
+        <h2>¿Por qué es importante la seguridad digital?</h2>
+        <p>
+            En la actualidad, vivimos conectados a internet gran parte del tiempo.
+            Desde redes sociales hasta plataformas educativas, nuestra información
+            puede estar en riesgo si no aplicamos buenas prácticas de seguridad.
+        </p>
+
+        <p>
+            CyberGuard tiene como objetivo educar a los usuarios sobre cómo proteger
+            sus datos, prevenir ataques digitales y actuar con responsabilidad en el entorno digital.
+        </p>
+    </section>
+
+    <!-- ESTADÍSTICAS -->
+    <section class="stats">
+        <div class="stat">
+            <h3>90%</h3>
+            <p>de los ataques ocurren por errores humanos</p>
+        </div>
+
+        <div class="stat">
+            <h3>+300K</h3>
+            <p>ataques de malware diarios</p>
+        </div>
+
+        <div class="stat">
+            <h3>70%</h3>
+            <p>usuarios no protege sus datos correctamente</p>
+        </div>
+    </section>
+
+    <!-- CONTENIDO CLAVE DEL PROYECTO -->
+    <section class="section">
+        <h2>Temas principales del sitio</h2>
+
+        <div class="card-container">
+
+            <div class="card" onclick="location.href='seguridad.html'">
+                <h3>Seguridad de la Información</h3>
+                <p>Conceptos, amenazas, IA, Big Data, Blockchain e IoT.</p>
+            </div>
+
+            <div class="card" onclick="location.href='amenazas.html'">
+                <h3>Amenazas Digitales</h3>
+                <p>Virus, phishing, malware y ataques reales.</p>
+            </div>
+
+            <div class="card" onclick="location.href='etica.html'">
+                <h3>Ética Digital</h3>
+                <p>Uso responsable, huella digital y derechos de autor.</p>
+            </div>
+
+            <div class="card" onclick="location.href='practicas.html'">
+                <h3>Buenas Prácticas</h3>
+                <p>Protección de datos, redes sociales y consejos útiles.</p>
+            </div>
+
+            <div class="card" onclick="location.href='caso.html'">
+                <h3>Caso Real</h3>
+                <p>Análisis de ciberataque y solución propuesta.</p>
+            </div>
+
+            <div class="card" onclick="location.href='recursos.html'">
+                <h3>Recursos</h3>
+                <p>Videos, enlaces e información adicional.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- CTA FINAL -->
+    <section class="section final-cta">
+        <h2>Conviértete en un agente digital</h2>
+        <p>
+            En un mundo digital, proteger la información no es opcional.
+            Aprende, actúa y marca la diferencia.
+        </p>
+
+        <a href="seguridad.html" class="btn">Comenzar ahora</a>
+    </section>
+
+</section>
+
+    <!-- Indicadores -->
+    <div class="indicators" id="indicators"></div>
+
+</section>
+
+    <footer>
+        <p>© 2026 ZENTRI | Proyecto Universitario</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
